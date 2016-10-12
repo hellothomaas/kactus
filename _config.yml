@@ -1,11 +1,21 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: PCI Proxy Blog
+description: Blogging about PCI DSS
+meta_description: "PCI Proxy - Tokenization as a Service - Blogging about PCI DSS"
 
 aboutPage: true
 
-markdown: kramdown
-highlighter: rouge
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - smart
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - strikethrough
+    - superscript
+    - with_to_data
 
 gems: [jekyll-paginate]
 paginate: 20
@@ -16,8 +26,8 @@ disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
+url:            'http://blog.pci-proxy.com'
+author:         'PCI Proxy - powered by Datatrans'
 authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
