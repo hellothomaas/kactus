@@ -1,7 +1,13 @@
 ---
 layout: post
-title: Case Study - Middle Office
-date: 2013-05-06 15:27:31
+title: "Official Markdown Testfile"
+date: 2016-10-06 15:27:31
+description: "That's about all Markdown Features"
+author: "Thomas S. Willenborg"
+authorPic: "thomas.jpg"
+authorUrl: "https://twitter.com/tswillenborg"
+authorTwitter: "tswillenborg"
+tags: [random, diary, school]
 ---
 
 # Header 1

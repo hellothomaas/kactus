@@ -1,8 +1,13 @@
 ---
 layout: post
-title: "New Receiver: Peakwork"
+title: "New Preferred Receiver: Peakwork"
 date: 2016-10-08 16:27:31
-disqus: n
+description: "Peakwork added to list of Preferred Receiver"
+author: "Thomas S. Willenborg"
+authorPic: "thomas.jpg"
+authorUrl: "https://twitter.com/tswillenborg"
+authorTwitter: "tswillenborg"
+tags: [random, diary, school]
 ---
 
 

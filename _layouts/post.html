@@ -15,10 +15,10 @@ archive: true
 
 
 <footer id="post-meta" class="clearfix">
-    <a href="http://twitter.com/{{ site.authorTwitter }}">
-        <img class="avatar" src="{{ site.baseurl }}assets/images/avatar.png">
+    <a href="{{ page.authorUrl }}" target="_blank">
+        <img class="avatar" src="{{ site.baseurl }}assets/images/{{ page.authorPic }}">
         <div>
-            <span class="dark">{{ site.author }}</span>
+            <span class="dark">{{ page.author }}</span>
             <span>{{ site.description }}</span>
         </div>
     </a>

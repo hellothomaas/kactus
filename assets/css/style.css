@@ -81,7 +81,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 80%;
+	max-width: 70%;
 	margin: 0 auto;
 }
 
@@ -121,12 +121,13 @@ h2 {
 nav.main-nav {
 	padding: 20px 20px 0;
 
-	/*max-width: 600px;*/
-	/*width:100%;*/
-	background: #fff;
+	max-width: 800px;
+	width:100%;
+	border: 1px solid #00518d;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
-	text-align: right;
+	border: 0px solid #000;
+	text-align: center;
 	/*position: fixed;*/
 	z-index: 100;
 }
@@ -135,7 +136,7 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #5badf0;
+	color: #00518d;
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
@@ -143,19 +144,19 @@ nav.main-nav a {
 
 }
 nav.main-nav a.cta {
-	background: #5badf0;
+	background: #00518d;
 	color: #fff;
 	margin-left: 12px;
 }
 
 #wrapper {
-  max-width: 70%;
+  max-width: 60%;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 80%;
+	max-width: 50%;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
@@ -167,6 +168,7 @@ nav.main-nav a.cta {
 	border-radius: 50%;
 }
 
+
 /* Typography */
 /*Accent color*/
 a,
@@ -175,11 +177,10 @@ a,
 #post-list li:hover .dates,
 #title:hover {
 	text-decoration: none;
-	color: #5badf0;
-	color: #5694f1;
+	color: #76b4cf;
 }
 
-p a { color: #5694f1; }
+p a { color: #00518d; }
 
 /*Transitions*/
 a,
@@ -406,6 +407,7 @@ img {
 /*=========================================
 Post List
 =========================================== */
+
 #post-list,#archive-list {
 	margin-top: 100px;
 }
@@ -426,7 +428,7 @@ Post List
 #post-list a {
 	color: #333;
 	display: block;
-	font: bold 19px/1.7 'Simplon', sans-serif;
+	font: 600 19px/1.7 'Simplon', sans-serif;
 }
 
 #post-list .dates {
@@ -453,9 +455,9 @@ Post List
 }
 
 #archive-link:hover {
-	background: #5694f1;
+	background: #76b4cf;
 	color: #fff;
-	box-shadow: 0 0 0 1px #5694f1;
+	box-shadow: 0 0 0 1px #76b4cf;
 }
 
 #archive-link span {
@@ -610,7 +612,7 @@ h2.month {
 }
 
 #archive-list li a:hover,#archive-list li:hover .dates {
-	color: #5694f1;
+	color: #76b4cf;
 }
 
 #post-meta img.avatar {
@@ -631,7 +633,7 @@ h2.month {
 
 #post-list.archive.readmore a{
 	font: 400 16px/1.6 'Simplon', sans-serif;
-	color: #5694f1;
+	color: #76b4cf;
 }
 
 #post-list.archive.readmore a:hover{

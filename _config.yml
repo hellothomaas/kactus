@@ -17,9 +17,11 @@ redcarpet:
     - superscript
     - with_to_data
 
+
 gems: [jekyll-paginate]
 paginate: 20
-baseurl: https://hellothomaas.github.io/kactus/
+url: "https://hellothomaas.github.io"
+baseurl: "/"
 domain_name: 'https://hellothomaas.github.io/kactus/'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
@@ -27,7 +29,7 @@ disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
 url:            'http://blog.pci-proxy.com'
-author:         'PCI Proxy - powered by Datatrans'
+author:         'PCI Proxy Blog'
 authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
