@@ -20,8 +20,8 @@ redcarpet:
 
 gems: [jekyll-paginate]
 paginate: 20
-url: "https://hellothomaas.github.io/kactus"
-baseurl: "https://hellothomaas.github.io/kactus"
+url: "https://hellothomaas.github.io/kactus/"
+baseurl: "https://hellothomaas.github.io/kactus/"
 domain_name: 'https://hellothomaas.github.io/kactus/'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
