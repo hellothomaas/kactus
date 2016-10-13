@@ -23,14 +23,14 @@ The theme is mobile optimised but I did not check browser compatibility. It look
 ### Get started
 
 - [Fork the repository](https://github.com/muan/scribble/fork).
-- Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble`
-- `bundle install`
-4. **If using older versions of Jekyll**<br />
+- Clone the repository to your computer. `git clone https://github.com/username/scribble`
+- `bundle install`<br>
+**If using older versions of Jekyll**<br />
   Build and run jekyll using `jekyll --server --auto`.<br />
   **If using [Jekyll 1.0](http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/)**<br />
   Build Jekyll using `jekyll build`.<br />
   Then run Jekyll using `jekyll serve --watch`<br />
-5. Go to http://localhost:4000 for your site.
+  Go to http://localhost:4000 for your site.
 
 ---
 

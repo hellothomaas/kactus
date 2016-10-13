@@ -5,23 +5,14 @@ meta_description: "PCI Proxy - Tokenization as a Service - Blogging about PCI DS
 aboutPage: true
 
 highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - smart
-    - no_intra_emphasis
-    - fenced_code_blocks
-    - autolink
-    - tables
-    - strikethrough
-    - superscript
-    - with_to_data
+
 
 
 gems: [jekyll-paginate]
 paginate: 20
-url: "https://hellothomaas.github.io/kactus/"
-baseurl: "https://hellothomaas.github.io/kactus/"
+#url: "https://hellothomaas.github.io/kactus/"
+#baseurl: "https://hellothomaas.github.io/kactus/"
+baseurl: "/"
 domain_name: 'https://hellothomaas.github.io/kactus/'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false

@@ -1,7 +1,7 @@
 .highlight { font-size: 13px; }
 Pre,code { font-family: monospace; }
 
-div.highlight pre, pre, div.highlight .hll { background-color: #fbfdfe; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
+div.highlight pre, pre, div.highlight .hll { margin: 0px; background-color: #fbfdfe; border: 1px solid #e8eaeb; padding: 6px 10px; border-radius: 2px; }
 div.highlight .c { color: #999988; font-style: italic; }
 div.highlight .err { color: #a61717; background-color: #e3d2d2; }
 div.highlight .k { font-weight: bold; }
