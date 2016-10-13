@@ -33,9 +33,7 @@ I **will** complete these lessons!
 _"Of course,"_ she whispered. Then, she shouted: **"All I need is a little moxie!"**
 
 #Header one
-
 ##Header two
-
 ###Header three
 
 ####Header four
